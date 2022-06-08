@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style:none;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    height: 7vh;
+    background-color: darkcyan;
+    color: white;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    display: inline;
+    padding: 10px;
+  }
+  header nav ul li a{
+      text-decoration: none;
+      color: white;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+main{
+    display: flex;
+    flex-direction: column;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+}
+.col{
+    display: flex;
+    flex-direction: column;
+    width: 49%;
+    padding: 30px;
+}
+.col-3{
+    display: flex;
+    flex-direction: column;
+}
+.w-32{
+    width:32%;
+}
+.h-25{
+    height: 25vh;
+}
+.bodas{
+    border: 1px solid #000;
+}
+.mLaterais-5{
+    margin: 5px;
+}
+.mLaterais-10{
+    margin: 10px;
+}
+.imagem{
+    align-items: center;
+}
+.projeto{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.foto{
+    width: 300px;
+}
+
+footer{
+    width: 100%;
+    height: 10vh;
+    background-color: black;
+}
